@@ -1,0 +1,504 @@
+html {
+  background-image: url("backgroundMap.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+body {
+}
+#page-wrapper {
+  position: relative;
+  width: 1024px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 768px;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+/* Set floating dom-heading margins to 0 */
+[class*="dom-heading"] {
+  margin: 0;
+}
+.dom-heading.dom-heading-1 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-slab";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 59.2667px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 40px;
+  border: none;
+  width: 316px;
+  height: 50px;
+  position: absolute;
+  top: 71px;
+  left: 116px;
+}
+.dom-heading.dom-heading-10 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 68px;
+  height: 30px;
+  position: absolute;
+  top: 19px;
+  left: 312px;
+}
+.dom-heading.dom-heading-11 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 377px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  left: 522px;
+}
+.dom-heading.dom-heading-12 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 62px;
+  height: 27px;
+  position: absolute;
+  top: 20px;
+  left: 426px;
+}
+.dom-heading.dom-heading-2 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 275px;
+  height: 269px;
+  position: absolute;
+  top: 20px;
+  left: 26px;
+}
+.dom-heading.dom-heading-3 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 32px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 26.6667px;
+  border: none;
+  width: 300px;
+  height: 33px;
+  position: absolute;
+  top: 61px;
+  left: 600px;
+}
+.dom-heading.dom-heading-4 {
+  background: transparent;
+  color: #a3a3a3;
+  font-family:"Arial";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 300px;
+  height: 31px;
+  position: absolute;
+  top: 109px;
+  left: 600px;
+}
+.dom-heading.dom-heading-5 {
+  background: transparent;
+  color: #a3a3a3;
+  font-family:"Arial";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 300px;
+  height: 30px;
+  position: absolute;
+  top: 203px;
+  left: 600px;
+}
+.dom-heading.dom-heading-6 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 93px;
+  height: 27px;
+  position: absolute;
+  top: 22px;
+  left: 52px;
+}
+.dom-heading.dom-heading-7 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 89px;
+  height: 24px;
+  position: absolute;
+  top: 23px;
+  left: 390px;
+}
+.dom-heading.dom-heading-8 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 125px;
+  height: 21px;
+  position: absolute;
+  top: 23px;
+  left: 213px;
+}
+.dom-heading.dom-heading-9 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 89px;
+  height: 27px;
+  position: absolute;
+  top: 150px;
+  left: 874px;
+}
+.icon.icon-1 {
+  color: #ffffff;
+  font-size: 49px;
+  height: 49px;
+  width: 55px;
+  position: absolute;
+  top: 73px;
+  left: 66px;
+}
+.icon.icon-10 {
+  color: #ffffff;
+  font-size: 30px;
+  height: 46px;
+  width: 30px;
+  position: absolute;
+  top: 13px;
+  left: 530px;
+}
+.icon.icon-11 {
+  color: #ffffff;
+  font-size: 30px;
+  height: 30px;
+  width: 33px;
+  position: absolute;
+  top: 13px;
+  left: 562px;
+}
+.icon.icon-12 {
+  color: #ffffff;
+  font-size: 20px;
+  height: 26px;
+  width: 20px;
+  position: absolute;
+  top: 19px;
+  left: 403px;
+}
+.icon.icon-13 {
+  color: #ffffff;
+  font-size: 21px;
+  height: 21px;
+  width: 24px;
+  position: absolute;
+  top: 19px;
+  left: 282px;
+}
+.icon.icon-14 {
+  color: #ffffff;
+  font-size: 21px;
+  height: 21px;
+  width: 23px;
+  position: absolute;
+  top: 22px;
+  left: 495px;
+}
+.icon.icon-2 {
+  color: #ffffff;
+  font-size: 41px;
+  height: 41px;
+  width: 50px;
+  position: absolute;
+  top: 139px;
+  left: 1px;
+}
+.icon.icon-3 {
+  color: #ffffff;
+  font-size: 40px;
+  height: 40px;
+  width: 68px;
+  position: absolute;
+  top: 194px;
+  left: 516px;
+}
+.icon.icon-4 {
+  color: #ffffff;
+  font-size: 27px;
+  height: 30px;
+  width: 27px;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+.icon.icon-5 {
+  color: #ffffff;
+  font-size: 27px;
+  height: 35px;
+  width: 27px;
+  position: absolute;
+  top: 20px;
+  left: 180px;
+}
+.icon.icon-6 {
+  color: #ffffff;
+  font-size: 23px;
+  height: 32px;
+  width: 23px;
+  position: absolute;
+  top: 21px;
+  left: 798px;
+}
+.icon.icon-7 {
+  color: #ffffff;
+  font-size: 21px;
+  height: 21px;
+  width: 37px;
+  position: absolute;
+  top: 22px;
+  left: 376px;
+}
+.icon.icon-8 {
+  color: #ffffff;
+  font-size: 31px;
+  height: 36px;
+  width: 31px;
+  position: absolute;
+  top: 13px;
+  left: 495px;
+}
+.icon.icon-9 {
+  color: #ffffff;
+  font-size: 32px;
+  height: 33px;
+  width: 32px;
+  position: absolute;
+  top: 12px;
+  left: 459px;
+}
+input.textinput.input.textinput-1 {
+  background: #ffffff;
+  font-family:"droid sans";
+  font-weight: normal;
+  text-decoration: none;
+  -moz-box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.098);
+  -webkit-box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.098);
+  -o-box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.098);
+  box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.098);
+  text-shadow: none;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid #cfcfcf;
+  width: 247.5px;
+  height: 30.5px;
+  position: absolute;
+  top: 140px;
+  left: 602px;
+}
+
+select.select-1 {
+  width: 200px;
+  height: 32px;
+  position: absolute;
+  top: 138px;
+  left: 602px;
+}
+
+select.select-2 {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 233px;
+  left: 602px;
+}
+
+input.textinput.input.textinput-2 {
+  background: #ffffff;
+  font-family:"droid sans";
+  font-weight: normal;
+  text-decoration: none;
+  -moz-box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.098);
+  -webkit-box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.098);
+  -o-box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.098);
+  box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.098);
+  text-shadow: none;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid #cfcfcf;
+  width: 249.5px;
+  height: 30.5px;
+  position: absolute;
+  top: 232px;
+  left: 601px;
+}
+
+ .rectangle {
+  background: #374d80;
+  border-radius: 10px;
+  width: 903px;
+  height: 365px;
+  position: absolute;
+  top: 143px;
+  left: 57px;
+}
+.rectangle-1 {
+  background: rgba(159, 157, 179, 0.6);
+  border-radius: 0px;
+  width: 568px;
+  height: 306px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+.image {
+  border-radius: 0px;
+  margin: 0px;
+  width: 548px;
+  height: 287px;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  background: transparent url(image.jpg) top left no-repeat;
+  ;
+}
+
+ .flat-ok-button {
+  background: rgba(176, 205, 212, 0.57);
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: normal;
+  text-decoration: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 13px;
+  font-size: 18.6667px;
+  border: none;
+  width: 130px;
+  height: 46px;
+  position: absolute;
+  top: 300px;
+  left: 675px;
+}
+.rectangle-2 {
+  background: #44434d;
+  border-radius: 0px;
+  width: 903px;
+  height: 54px;
+  position: absolute;
+  top: 128px;
+  left: 57px;
+}
+
+ .rectangle-3 {
+  background: #44434d;
+  border-radius: 0px;
+  width: 1048px;
+  height: 54px;
+  position: absolute;
+  top: 680px;
+  left: -22px;
+}
+ .rectangle-4 {
+  background: #44434d;
+  border-radius: 0px;
+  width: 992px;
+  height: 53px;
+  position: absolute;
+  top: 949px;
+  left: -10px;
+}

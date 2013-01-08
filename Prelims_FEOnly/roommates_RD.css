@@ -1,0 +1,322 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  undefined
+}
+#page-wrapper {
+  position: relative;
+  width: 1024px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 768px;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+/* Set floating body text margins to 0 */
+[class*="dom-body-text"] p {
+  margin: 0 0 10px 0;
+}
+.btn .icon.icon-2 {
+  color: #374d80;
+  font-size: 17.77777862548828px;
+  height: 18px;
+  width: 27px;
+}
+.btn .icon.icon-3 {
+  color: #374d80;
+  font-size: 18.88888931274414px;
+  height: 19px;
+  width: 19px;
+}
+.btn-group .btn .icon.icon-4 {
+  color: #374d80;
+  font-size: 16.666667938232422px;
+  height: 17px;
+  width: 24px;
+}
+.btn-group .btn .icon.icon-5 {
+  color: #374d80;
+  font-size: 17.77777862548828px;
+  height: 18px;
+  width: 21px;
+}
+.btn-group .btn .icon.icon-6 {
+  color: #374d80;
+  font-size: 16.666667938232422px;
+  height: 17px;
+  width: 30px;
+}
+.btn-group.btn-group-1 {
+  width: 151px;
+  height: 31px;
+  position: absolute;
+  top: 653px;
+  left: 112px;
+}
+.btn-group.btn-group-2 {
+  width: 148px;
+  height: 32px;
+  position: absolute;
+  top: 653px;
+  left: 345px;
+}
+.btn-group.btn-group-3 {
+  width: 148px;
+  height: 32px;
+  position: absolute;
+  top: 653px;
+  left: 568px;
+}
+.btn-group.btn-group-4 {
+  width: 148px;
+  height: 32px;
+  position: absolute;
+  top: 654px;
+  left: 800px;
+}
+.btn.btn-1 {
+  font-family:"droid sans";
+  font-size: 14.44444465637207px;
+  color: #374d80;
+  font-weight: bold;
+  width: 119px;
+  height: 51px;
+  position: absolute;
+  top: 253px;
+  left: 817px;
+}
+.btn.btn-2 {
+  font-family:"droid sans";
+  font-size: 14.44444465637207px;
+  color: #374d80;
+  font-weight: bold;
+  width: 120px;
+  height: 49px;
+  position: absolute;
+  top: 254px;
+  left: 684px;
+}
+.checkbox.checkbox-1 {
+  width: 57px;
+  height: 20px;
+  position: absolute;
+  top: 90px;
+  left: 220px;
+}
+.checkbox.checkbox-2 {
+  width: 47px;
+  height: 20px;
+  position: absolute;
+  top: 91px;
+  left: 155px;
+}
+.dom-body-text p.p-1 {
+  font-family:'droid sans';
+  font-size: 17.77777862548828px;
+  color: #ffffff;
+}
+.dom-body-text p.p-2 {
+  font-family:'droid sans';
+  font-size: 15.555556297302246px;
+  text-align: center;
+}
+.dom-body-text.dom-body-text-1 {
+  width: 52px;
+  height: 21px;
+  position: absolute;
+  top: 15px;
+  left: 40px;
+}
+.dom-body-text.dom-body-text-2 {
+  width: 118px;
+  height: 21px;
+  position: absolute;
+  top: 55px;
+  left: 40px;
+}
+.dom-body-text.dom-body-text-3 {
+  width: 132px;
+  height: 22px;
+  position: absolute;
+  top: 91px;
+  left: 21px;
+}
+.dom-body-text.dom-body-text-4 {
+  width: 52px;
+  height: 22px;
+  position: absolute;
+  top: 121px;
+  left: 21px;
+}
+.dom-body-text.dom-body-text-5 {
+  width: 250px;
+  height: 91px;
+  position: absolute;
+  top: 152px;
+  left: 683px;
+}
+.dom-body-text.dom-body-text-6 {
+  width: 164px;
+  height: 20px;
+  position: absolute;
+  top: 631px;
+  left: 87px;
+}
+.dom-body-text.dom-body-text-7 {
+  width: 133px;
+  height: 22px;
+  position: absolute;
+  top: 632px;
+  left: 339px;
+}
+.dom-body-text.dom-body-text-8 {
+  width: 133px;
+  height: 22px;
+  position: absolute;
+  top: 633px;
+  left: 562px;
+}
+.dom-body-text.dom-body-text-9 {
+  width: 132px;
+  height: 22px;
+  position: absolute;
+  top: 634px;
+  left: 793px;
+}
+.heading.heading-1 {
+  font-family:"josefin sans";
+  font-size: 40px;
+  color: #374d80;
+  width: 173px;
+  height: 30px;
+  position: absolute;
+  left: 153px;
+  top: 12px;
+}
+.heading.heading-2 {
+  font-family:"droid sans";
+  font-size: 25.55555534362793px;
+  width: 176px;
+  height: 42px;
+  position: absolute;
+  top: 375px;
+  left: 112px;
+}
+.icon.icon-1 {
+  color: #9f9db3;
+  font-size: 51.11111068725586px;
+  height: 64px;
+  width: 51px;
+  position: absolute;
+  top: 35px;
+  left: 105px;
+}
+.navbar .navbar-inner .nav li a.a-1 {
+  font-family:"droid sans";
+  font-size: 17.77777862548828px;
+}
+.navbar .navbar-inner .nav li a.a-2 {
+  font-size: 17.77777862548828px;
+  color: #374d80;
+}
+select.select-1 {
+  width: 200px;
+  height: 29px;
+  position: absolute;
+  top: 10px;
+  left: 105px;
+}
+select.select-2 {
+  width: 130px;
+  height: 30px;
+  position: absolute;
+  top: 47px;
+  left: 175px;
+}
+/*
+Using this css requires Font Awesome:
+http://fortawesome.github.com/Font-Awesome/
+*/
+ .navbar {
+  width: 607px;
+  height: 42px;
+  position: absolute;
+  top: 38px;
+  left: 397px;
+}
+.navbar .navbar-inner {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  height: 42px;
+}
+.image {
+  border-radius: 0px;
+  margin: 0px;
+  width: 207px;
+  height: 200px;
+  position: absolute;
+  top: 125px;
+  left: 115px;
+}
+.rectangle {
+  background: #9f9db3;
+  border-radius: 0px;
+  margin: 0px;
+  width: 314px;
+  height: 200px;
+  position: absolute;
+  top: 126px;
+  left: 338px;
+}
+textarea {
+  width: 205.81481456756592px;
+  height: 55.777777671813965px;
+  position: absolute;
+  top: 121px;
+  left: 84px;
+}
+.image-1 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 148px;
+  height: 200px;
+  position: absolute;
+  top: 430px;
+  left: 782px;
+}
+.image-2 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 141px;
+  height: 199px;
+  position: absolute;
+  top: 431px;
+  left: 555px;
+}
+.image-3 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 148px;
+  height: 200px;
+  position: absolute;
+  top: 431px;
+  left: 328px;
+}
+.image-4 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 148px;
+  height: 197px;
+  position: absolute;
+  top: 432px;
+  left: 90px;
+}

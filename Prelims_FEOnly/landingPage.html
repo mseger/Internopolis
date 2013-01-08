@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Limelight|Flamenco|Federo|Yesteryear|Josefin Sans|Spinnaker|Sansita One|Handlee|Droid Sans|Oswald:400,300,700"
-    media="screen" rel="stylesheet" type="text/css" />
-    <link href="/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/css/bootstrap-responsive.css" media="screen" rel="stylesheet" type="text/css"
-    />
+    media="screen" rel="stylesheet" type="text/css" /> 
+    <link href="css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-responsive.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="landingPage.css" media="screen" rel="stylesheet" type="text/css" />
+
     <!-- Typekit fonts require an account and a kit containing the fonts used. see https://typekit.com/plans
     for details. <script type="text/javascript" src="//use.typekit.net/YOUR_KIT_ID.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -20,8 +20,8 @@
    
   <body>
     <div id="page-wrapper">
-      <h1 class="dom-heading dom-heading-1">Internopolis</h1>
-<i class="icon icon-globe icon-1"></i>
+    <h1 class="dom-heading dom-heading-1">Internopolis</h1>
+    <i class="icon icon-globe icon-1"></i>
  
       <div class="rectangle">
         <div class="rectangle-1">
@@ -37,7 +37,7 @@
               </div>
             </h2>
           </div>
-<i class="icon icon-chevron-left icon-2"></i>
+    <i class="icon icon-chevron-left icon-2"></i>
         </div>
         <h2 class="dom-heading dom-heading-3">I'm interning at:</h2>
         <h2 class="dom-heading dom-heading-4">Company</h2>
@@ -46,7 +46,7 @@
           <option value="Twitter">Twitter</option>
           <option value="LinkedIn">LinkedIn</option>  
         </select>
-<i class="icon icon-chevron-right icon-3"></i>
+    <i class="icon icon-chevron-right icon-3"></i>
  
         <h2 class="dom-heading dom-heading-5">City</h2>
         <select class="select-2">
@@ -54,9 +54,12 @@
           <option value="Los Angeles">Los Angeles</option>
           <option value="Boston">Boston</option>
         </select>
-        <button class="flat-ok-button">Let's go!</button>
+        <a class="btn btn-okay" href="#">Let's go!</a>
       </div>
-      <div class="rectangle-2"><i class="icon icon-home icon-4"></i>
+
+<!-- inserting new, customized buttons here --> 
+
+<!-- <div class="rectangle-2"><i class="icon icon-home icon-4"></i>
  
 <i class="icon icon-group icon-5"></i>
  
@@ -67,15 +70,37 @@
           <h2 class="dom-heading dom-heading-7">Utilities</h2>
           <h2 class="dom-heading dom-heading-8">Roommates</h2>
       </div>
-      <h2 class="dom-heading dom-heading-9">Log in</h2>
-      <div class="rectangle-3"><i class="icon icon-twitter-sign icon-8"></i>
- 
-<i class="icon icon-facebook-sign icon-9"></i>
- 
-        <i
-        class="icon icon-google-plus-sign icon-10"></i>
-<i class="icon icon-pinterest icon-11"></i>
-      </div>
+      <h2 class="dom-heading dom-heading-9">Log in</h2> --> 
+
+<!-- top bar --> 
+
+    <div class="rectangle-2">
+        <a class="btn btn-housing" href="#">
+          <i class="icon icon-home">Housing</i> <!-- formerly icon-4 --> 
+        </a>
+        
+        <a class="btn btn-roomies" href="#">
+          <i class="icon icon-group">Roommates</i> <!-- formerly icon-5 --> 
+        </a>
+
+        <a class="btn btn-utilities" href="#"> 
+          <i class="icon icon-bolt">Utilities</i> <!-- formerly icon-7 --> 
+        </a>
+
+        <a class="btn btn-myLogin" href="#"> 
+          <i class="icon icon-bookmark"> Log In</i> <!-- formerly icon-6 --> 
+        </a>
+    </div> 
+
+
+<!-- bottom bar --> 
+
+<div class="rectangle-3">
+    <i class="icon icon-twitter-sign icon-8"></i>
+    <i class="icon icon-facebook-sign icon-9"></i>
+    <i class="icon icon-google-plus-sign icon-10"></i>
+    <i class="icon icon-pinterest icon-11"></i>
+  </div>
       <div class="rectangle-4"><i class="icon icon-pencil icon-12"></i>
  
         <h2 class="dom-heading dom-heading-10">About</h2>
@@ -86,6 +111,9 @@
 <i class="icon icon-question-sign icon-14"></i>
       </div>
     </div>
+
+    <script src="js/jquery.js"></script>
+
   </body>
  
 </html>

@@ -1,0 +1,89 @@
+html {
+  background-color: "#ffffff";
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+body {
+}
+#page-wrapper {
+  position: relative;
+  width: 1024px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 768px;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+/* Set floating dom-heading margins to 0 */
+[class*="dom-heading"] {
+  margin: 0;
+}
+
+.rectangle-2 {
+  background: #44434d;
+  border-radius: 0px;
+  width: 903px;
+  height: 54px;
+  position: absolute;
+  top: 128px;
+  left: 57px;
+}
+
+.btn.btn-housing{
+  height: 40px;
+  width: 73px;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.btn.btn-roomies{
+  height: 40px;
+  width: 107px;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 180px;
+}
+
+.btn.btn-utilities{
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 376px;
+}
+
+.btn.btn-myLogin{
+  height: 40px;
+  width: 60px;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 500px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,10 @@
 html {
-  background-image: url("backgroundMap.jpg");
-  background-repeat: no-repeat;
-  background-position: top left;
+
 }
 body {
+    background-image: url("backgroundMap.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 #page-wrapper {
   position: relative;
@@ -41,7 +42,7 @@ body {
   width: 316px;
   height: 50px;
   position: absolute;
-  top: 71px;
+  top: 55px;
   left: 116px;
 }
 .dom-heading.dom-heading-10 {
@@ -242,6 +243,78 @@ body {
   top: 150px;
   left: 874px;
 }
+
+/* custom buttons */
+
+.btn.btn-housing{
+  /*background: #374d80;
+  color:white;*/
+
+  background: #44434d;
+  color:white;
+  height: 40px;
+  width: 83px;
+  font-size: 20px;
+  font-family:"museo-slab";
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+
+.btn.btn-roomies{
+  /*background: #374d80;
+  color:white;*/
+  background: #44434d;
+  color:white;
+  height: 40px;
+  width: 117px;
+  font-size: 20px;
+  font-family:"museo-slab";
+  position: absolute;
+  top: 7px;
+  left: 130px;
+}
+
+.btn.btn-utilities{
+  /*background: #374d80;
+  color:white;*/
+  background: #44434d;
+  color:white;
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+  font-family:"museo-slab";
+  position: absolute;
+  top: 7px;
+  left: 284px;
+}
+
+.btn.btn-myLogin{
+  /*background: #374d80;
+  color:white;*/
+  background: #44434d;
+  color:white;
+  height: 40px;
+  width: 60px;
+  font-size: 20px;
+  font-family:"museo-slab";
+  position: absolute;
+  top: 7px;
+  left: 807px;  
+}
+
+.btn.btn-okay{
+  background: #44434d;
+  color: white;
+  font-size: 20px;
+  font-family:"museo-slab";
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 300px;
+  left: 675px;  
+}
+
 .icon.icon-1 {
   color: #ffffff;
   font-size: 49px;
@@ -398,7 +471,7 @@ select.select-1 {
 
 select.select-2 {
   width: 200px;
-  height: 30px;
+  height: 32px;
   position: absolute;
   top: 233px;
   left: 602px;
@@ -478,9 +551,9 @@ input.textinput.input.textinput-2 {
   background: #44434d;
   border-radius: 0px;
   width: 903px;
-  height: 54px;
+  height: 64px;
   position: absolute;
-  top: 128px;
+  top: 120px;
   left: 57px;
 }
 

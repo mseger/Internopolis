@@ -1,0 +1,358 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  undefined
+}
+#page-wrapper {
+  position: relative;
+  width: 1024px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 768px;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+/* Set floating dom-heading margins to 0 */
+[class*="dom-heading"] {
+  margin: 0;
+}
+/* Set floating body text margins to 0 */
+[class*="dom-body-text"] p {
+  margin: 0 0 10px 0;
+}
+.btn.btn-1 {
+  font-weight: bold;
+  color: #374d80;
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  top: 165px;
+  left: 878px;
+}
+.btn.btn-2 {
+  font-weight: bold;
+  color: #374d80;
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  top: 229px;
+  left: 878px;
+}
+.btn.btn-3 {
+  font-weight: bold;
+  color: #374d80;
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  top: 294px;
+  left: 878px;
+}
+.btn.btn-4 {
+  font-weight: bold;
+  color: #374d80;
+  width: 96px;
+  height: 31px;
+  position: absolute;
+  top: 296px;
+  left: 587px;
+}
+.checkbox.checkbox-1 {
+  width: 91px;
+  height: 20px;
+  position: absolute;
+  top: 266px;
+  left: 578px;
+}
+.checkbox.checkbox-2 {
+  width: 51px;
+  height: 20px;
+  position: absolute;
+  top: 267px;
+  left: 486px;
+}
+.checkbox.checkbox-3 {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 297px;
+  left: 486px;
+}
+.control-label.control-label-1 {
+  font-family:"droid sans";
+  font-size: 14.44444465637207px;
+  width: 87px;
+  height: 20px;
+  position: absolute;
+  top: 164px;
+  left: 393px;
+}
+.control-label.control-label-2 {
+  font-family:"droid sans";
+  font-size: 14.44444465637207px;
+  width: 78px;
+  height: 20px;
+  position: absolute;
+  top: 219px;
+  left: 396px;
+}
+.control-label.control-label-3 {
+  font-family:"droid sans";
+  font-size: 14.44444465637207px;
+  width: 41px;
+  height: 20px;
+  position: absolute;
+  top: 266px;
+  left: 398px;
+}
+.dom-body-text p.p-1 {
+  font-family:'droid sans';
+  text-align: right;
+}
+.dom-body-text.dom-body-text-1 {
+  width: 101px;
+  height: 41px;
+  position: absolute;
+  top: 160px;
+  left: 753px;
+}
+.dom-body-text.dom-body-text-2 {
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  top: 223px;
+  left: 727px;
+}
+.dom-body-text.dom-body-text-3 {
+  width: 102px;
+  height: 41px;
+  position: absolute;
+  top: 289px;
+  left: 756px;
+}
+.dom-heading.dom-heading-1 {
+  color: #ffffff;
+  font-family:"droid sans";
+  font-size: 25.55555534362793px;
+  line-height: 34.4444465637207px;
+  width: 300px;
+  height: 42px;
+  position: absolute;
+  top: 109px;
+  left: 116px;
+}
+.dom-heading.dom-heading-2 {
+  color: #374d80;
+  font-family:"droid sans";
+  font-size: 25.55555534362793px;
+  line-height: 34.4444465637207px;
+  width: 164px;
+  height: 42px;
+  position: absolute;
+  top: 109px;
+  left: 788px;
+}
+.dom-heading.dom-heading-3 {
+  color: #374d80;
+  font-family:"droid sans";
+  font-size: 25.55555534362793px;
+  line-height: 34.4444465637207px;
+  width: 256px;
+  height: 42px;
+  position: absolute;
+  top: 109px;
+  left: 403px;
+}
+.dom-heading.dom-heading-4 {
+  color: #ffffff;
+  font-family:"droid sans";
+  font-size: 25.55555534362793px;
+  line-height: 34.4444465637207px;
+  width: 300px;
+  height: 42px;
+  position: absolute;
+  top: 515px;
+  left: 131px;
+}
+.icon.icon-1 {
+  color: #9f9db3;
+  font-size: 51.11111068725586px;
+  height: 64px;
+  width: 51px;
+  position: absolute;
+  top: 35px;
+  left: 105px;
+}
+.icon.icon-2 {
+  color: #ffffff;
+  position: absolute;
+  top: 66px;
+  left: 2px;
+}
+.icon.icon-3 {
+  color: #ffffff;
+  position: absolute;
+  top: 67px;
+  left: 3px;
+}
+.icon.icon-4 {
+  color: #ffffff;
+  font-size: 25.55555534362793px;
+  height: 28px;
+  width: 25px;
+  position: absolute;
+  top: 375px;
+  left: 141px;
+}
+.icon.icon-5 {
+  color: #ffffff;
+  position: absolute;
+  top: 68px;
+  left: 2px;
+}
+.icon.icon-6 {
+  color: #ffffff;
+  font-size: 25.55555534362793px;
+  height: 28px;
+  width: 25px;
+  position: absolute;
+  top: 620px;
+  left: 142px;
+}
+.navbar .navbar-inner .nav li a.a-1 {
+  font-family:"droid sans";
+  font-size: 17.77777862548828px;
+}
+.navbar .navbar-inner .nav li a.a-2 {
+  font-size: 17.77777862548828px;
+  color: #374d80;
+}
+select.select-1 {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 160px;
+  left: 480px;
+}
+select.select-2 {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 214px;
+  left: 481px;
+}
+/*
+Using this css requires Font Awesome:
+http://fortawesome.github.com/Font-Awesome/
+*/
+ .heading {
+  font-family:"josefin sans";
+  font-size: 40px;
+  color: #374d80;
+  width: 173px;
+  height: 30px;
+  position: absolute;
+  left: 153px;
+  top: 12px;
+}
+.navbar {
+  width: 607px;
+  height: 42px;
+  position: absolute;
+  top: 35px;
+  left: 387px;
+}
+.navbar .navbar-inner {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  height: 42px;
+}
+.rectangle {
+  background: #9f9db3;
+  border-radius: 0px;
+  margin: 0px;
+  width: 304px;
+  height: 654px;
+  position: absolute;
+  top: 95px;
+  left: 52px;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 0px;
+  margin: 0px;
+  width: 275px;
+  height: 142px;
+  position: absolute;
+  top: 72px;
+  left: 14px;
+}
+.rectangle-2 {
+  background: #374d80;
+  border-radius: 0px;
+  margin: 0px;
+  width: 19px;
+  height: 143px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+ .rectangle-3 {
+  background: #ffffff;
+  border-radius: 0px;
+  margin: 0px;
+  width: 275px;
+  height: 142px;
+  position: absolute;
+  top: 225px;
+  left: 14px;
+}
+.rectangle-4 {
+  background: #374d80;
+  border-radius: 0px;
+  margin: 0px;
+  width: 19px;
+  height: 142px;
+  position: absolute;
+  top: 0px;
+  left: -1px;
+}
+ .rectangle-5 {
+  background: #ffffff;
+  border-radius: 0px;
+  margin: 0px;
+  width: 275px;
+  height: 142px;
+  position: absolute;
+  top: 472px;
+  left: 14px;
+}
+.rectangle-6 {
+  background: #374d80;
+  border-radius: 0px;
+  margin: 0px;
+  width: 19px;
+  height: 142px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+ .image {
+  border-radius: 0px;
+  margin: 0px;
+  width: 597px;
+  height: 393px;
+  position: absolute;
+  top: 358px;
+  left: 375px;
+}

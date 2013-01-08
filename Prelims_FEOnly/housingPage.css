@@ -1,0 +1,1061 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  undefined
+}
+#page-wrapper {
+  position: relative;
+  width: 980px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 1000px;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+/* Set floating dom-heading margins to 0 */
+[class*="dom-heading"] {
+  margin: 0;
+}
+.basic-ok-button.basic-ok-button-1 {
+  background: #44434d;
+  background-image: -moz-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: -webkit-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: -o-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: linear-gradient(180deg, #44434d 0%, #302f39 100%);
+  color: #e1deff;
+  font-family:"droid sans";
+  font-weight: normal;
+  text-decoration: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 3px;
+  font-size: 13.3333px;
+  border: 1px solid #5d5a72;
+  width: 58px;
+  height: 27px;
+  position: absolute;
+  top: 118px;
+  left: 906px;
+}
+.basic-ok-button.basic-ok-button-2 {
+  background: #44434d;
+  background-image: -moz-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: -webkit-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: -o-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: linear-gradient(180deg, #44434d 0%, #302f39 100%);
+  color: #e1deff;
+  font-family:"droid sans";
+  font-weight: normal;
+  text-decoration: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 3px;
+  font-size: 13.3333px;
+  border: 1px solid #5d5a72;
+  width: 58px;
+  height: 27px;
+  position: absolute;
+  top: 157px;
+  left: 906px;
+}
+.basic-ok-button.basic-ok-button-3 {
+  background: #44434d;
+  background-image: -moz-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: -webkit-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: -o-linear-gradient(270deg, #44434d 0%, #302f39 100%);
+  background-image: linear-gradient(180deg, #44434d 0%, #302f39 100%);
+  color: #e1deff;
+  font-family:"droid sans";
+  font-weight: normal;
+  text-decoration: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 3px;
+  font-size: 13.3333px;
+  border: 1px solid #5d5a72;
+  width: 58px;
+  height: 27px;
+  position: absolute;
+  top: 197px;
+  left: 906px;
+}
+.dom-heading.dom-heading-1 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 123px;
+  height: 21px;
+  position: absolute;
+  top: 17px;
+  left: 662px;
+}
+.dom-heading.dom-heading-10 {
+  background: transparent;
+  color: #333333;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 16px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 13.3333px;
+  border: none;
+  width: 100px;
+  height: 75px;
+  position: absolute;
+  top: 30px;
+  left: 117px;
+}
+.dom-heading.dom-heading-11 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 100px;
+  height: 26px;
+  position: absolute;
+  top: 9px;
+  left: 118px;
+}
+.dom-heading.dom-heading-12 {
+  background: transparent;
+  color: #333333;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 16px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 13.3333px;
+  border: none;
+  width: 100px;
+  height: 77px;
+  position: absolute;
+  top: 29px;
+  left: 117px;
+}
+.dom-heading.dom-heading-13 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 16px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 13.3333px;
+  border: none;
+  width: 44px;
+  height: 31px;
+  position: absolute;
+  top: 528px;
+  left: 110px;
+}
+.dom-heading.dom-heading-14 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 32px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 26.6667px;
+  border: none;
+  width: 201px;
+  height: 34px;
+  position: absolute;
+  top: 574px;
+  left: 20px;
+}
+.dom-heading.dom-heading-15 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 100px;
+  height: 26px;
+  position: absolute;
+  top: 6px;
+  left: 118px;
+}
+.dom-heading.dom-heading-16 {
+  background: transparent;
+  color: #333333;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 16px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 13.3333px;
+  border: none;
+  width: 100px;
+  height: 76px;
+  position: absolute;
+  top: 30px;
+  left: 117px;
+}
+.dom-heading.dom-heading-17 {
+  background: transparent;
+  color: #fdedff;
+  font-family:"museo-slab";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 59.2667px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 40px;
+  border: none;
+  width: 312px;
+  height: 226px;
+  position: absolute;
+  top: -2px;
+  left: 75px;
+}
+.dom-heading.dom-heading-18 {
+  color: #374d80;
+  font-family:"trebuchet ms";
+  font-size: 26.6667px;
+  text-align: center;
+  line-height: 32px;
+  width: 270px;
+  height: 41px;
+  position: absolute;
+  top: 67px;
+  left: 687px;
+}
+.dom-heading.dom-heading-19 {
+  color: #374d80;
+  font-family:"trebuchet ms";
+  font-size: 26.6667px;
+  text-align: center;
+  line-height: 32px;
+  width: 251px;
+  height: 42px;
+  position: absolute;
+  top: 68px;
+  left: 295px;
+}
+.dom-heading.dom-heading-2 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 25.6px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 21.3333px;
+  border: none;
+  width: 88px;
+  height: 24px;
+  position: absolute;
+  top: 18px;
+  left: 819px;
+}
+.dom-heading.dom-heading-20 {
+  font-family:"trebuchet ms";
+  font-size: 13.3333px;
+  line-height: 16px;
+  width: 206px;
+  height: 30px;
+  position: absolute;
+  top: 115px;
+  left: 729px;
+}
+.dom-heading.dom-heading-21 {
+  font-family:"trebuchet ms";
+  font-size: 13.3333px;
+  line-height: 16px;
+  width: 76px;
+  height: 42px;
+  position: absolute;
+  top: 117px;
+  left: 263px;
+}
+.dom-heading.dom-heading-22 {
+  font-family:"Arial";
+  font-size: 13.3333px;
+  text-align: right;
+  line-height: 16px;
+  width: 25px;
+  height: 40px;
+  position: absolute;
+  top: 144px;
+  left: 555px;
+}
+.dom-heading.dom-heading-23 {
+  font-family:"Arial";
+  font-size: 13.3333px;
+  text-align: right;
+  line-height: 16px;
+  width: 25px;
+  height: 42px;
+  position: absolute;
+  top: 147px;
+  left: 334px;
+}
+.dom-heading.dom-heading-24 {
+  font-family:"trebuchet ms";
+  font-size: 13.3333px;
+  line-height: 16px;
+  width: 206px;
+  height: 30px;
+  position: absolute;
+  top: 156px;
+  left: 729px;
+}
+.dom-heading.dom-heading-25 {
+  font-family:"trebuchet ms";
+  font-size: 13.3333px;
+  line-height: 16px;
+  width: 76px;
+  height: 42px;
+  position: absolute;
+  top: 170px;
+  left: 263px;
+}
+.dom-heading.dom-heading-26 {
+  font-family:"Arial";
+  font-size: 13.3333px;
+  text-align: right;
+  line-height: 16px;
+  width: 26px;
+  height: 40px;
+  position: absolute;
+  top: 194px;
+  left: 319px;
+}
+.dom-heading.dom-heading-27 {
+  font-family:"trebuchet ms";
+  font-size: 13.3333px;
+  line-height: 16px;
+  width: 206px;
+  height: 30px;
+  position: absolute;
+  top: 195px;
+  left: 729px;
+}
+.dom-heading.dom-heading-28 {
+  font-family:"Arial";
+  font-size: 13.3333px;
+  text-align: right;
+  line-height: 16px;
+  width: 25px;
+  height: 40px;
+  position: absolute;
+  top: 195px;
+  left: 555px;
+}
+.dom-heading.dom-heading-29 {
+  font-family:"trebuchet ms";
+  font-size: 13.3333px;
+  line-height: 16px;
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  top: 221px;
+  left: 265px;
+}
+.dom-heading.dom-heading-3 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"museo-sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 16px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 13.3333px;
+  border: none;
+  width: 88px;
+  height: 24px;
+  position: absolute;
+  top: 22px;
+  left: 937px;
+}
+.dom-heading.dom-heading-30 {
+  font-family:"trebuchet ms";
+  font-size: 13px;
+  line-height: 15px;
+  width: 95px;
+  height: 42px;
+  position: absolute;
+  top: 221px;
+  left: 502px;
+}
+.dom-heading.dom-heading-31 {
+  font-family:"trebuchet ms";
+  font-size: 13.3333px;
+  line-height: 16px;
+  width: 76px;
+  height: 42px;
+  position: absolute;
+  top: 222px;
+  left: 338px;
+}
+.dom-heading.dom-heading-32 {
+  font-family:"trebuchet ms";
+  font-size: 13px;
+  line-height: 15px;
+  width: 78px;
+  height: 42px;
+  position: absolute;
+  top: 221px;
+  left: 411px;
+}
+.dom-heading.dom-heading-33 {
+  background: transparent;
+  color: #333333;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 300px;
+  height: 44px;
+  position: absolute;
+  top: 844px;
+  left: -26px;
+}
+.dom-heading.dom-heading-4 {
+  background: transparent;
+  color: #333333;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 16px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 13.3333px;
+  border: none;
+  width: 100px;
+  height: 78px;
+  position: absolute;
+  top: 30px;
+  left: 119px;
+}
+.dom-heading.dom-heading-5 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 32px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 26.6667px;
+  border: none;
+  width: 203px;
+  height: 35px;
+  position: absolute;
+  top: 8px;
+  left: 19px;
+}
+.dom-heading.dom-heading-6 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 100px;
+  height: 26px;
+  position: absolute;
+  top: 47px;
+  left: 144px;
+}
+.dom-heading.dom-heading-7 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 100px;
+  height: 27px;
+  position: absolute;
+  top: 7px;
+  left: 119px;
+}
+.dom-heading.dom-heading-8 {
+  background: transparent;
+  color: #333333;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 16px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 13.3333px;
+  border: none;
+  width: 100px;
+  height: 78px;
+  position: absolute;
+  top: 30px;
+  left: 117px;
+}
+.dom-heading.dom-heading-9 {
+  background: transparent;
+  color: #ffffff;
+  font-family:"droid sans";
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22.4px;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 18.6667px;
+  border: none;
+  width: 100px;
+  height: 26px;
+  position: absolute;
+  top: 6px;
+  left: 119px;
+}
+.icon.icon-1 {
+  color: #ffffff;
+  font-size: 46px;
+  height: 53px;
+  width: 46px;
+  position: absolute;
+  top: 4px;
+  left: 36px;
+}
+.icon.icon-10 {
+  color: #374d80;
+  font-size: 46px;
+  height: 46px;
+  width: 51px;
+  position: absolute;
+  top: 6px;
+  left: 84px;
+}
+.icon.icon-11 {
+  color: #374d80;
+  font-size: 33px;
+  height: 33px;
+  width: 62px;
+  position: absolute;
+  top: 114px;
+  left: 662px;
+}
+.icon.icon-12 {
+  color: #374d80;
+  font-size: 28px;
+  height: 28px;
+  width: 37px;
+  position: absolute;
+  top: 157px;
+  left: 676px;
+}
+.icon.icon-13 {
+  color: #374d80;
+  font-size: 34px;
+  height: 34px;
+  width: 35px;
+  position: absolute;
+  top: 193px;
+  left: 678px;
+}
+.icon.icon-14 {
+  color: #ffffff;
+  font-size: 28px;
+  height: 45px;
+  width: 28px;
+  position: absolute;
+  top: 14px;
+  left: 511px;
+}
+.icon.icon-15 {
+  color: #ffffff;
+  font-size: 30px;
+  height: 31px;
+  width: 30px;
+  position: absolute;
+  top: 14px;
+  left: 477px;
+}
+.icon.icon-16 {
+  color: #ffffff;
+  font-size: 27px;
+  height: 27px;
+  width: 30px;
+  position: absolute;
+  top: 14px;
+  left: 444px;
+}
+.icon.icon-17 {
+  color: #ffffff;
+  font-size: 28px;
+  height: 28px;
+  width: 37px;
+  position: absolute;
+  top: 15px;
+  left: 537px;
+}
+.icon.icon-2 {
+  color: #ffffff;
+  font-size: 25px;
+  height: 30px;
+  width: 25px;
+  position: absolute;
+  top: 16px;
+  left: 630px;
+}
+.icon.icon-3 {
+  color: #ffffff;
+  font-size: 18px;
+  height: 18px;
+  width: 33px;
+  position: absolute;
+  top: 21px;
+  left: 792px;
+}
+.icon.icon-4 {
+  color: #ffffff;
+  font-size: 13px;
+  height: 25px;
+  width: 13px;
+  position: absolute;
+  top: 24px;
+  left: 922px;
+}
+.icon.icon-5 {
+  color: #9f9db3;
+  font-size: 13px;
+  height: 15px;
+  width: 13px;
+  position: absolute;
+  top: 48px;
+  left: 2px;
+}
+.icon.icon-6 {
+  color: #9f9db3;
+  font-size: 13px;
+  height: 15px;
+  width: 13px;
+  position: absolute;
+  top: 50px;
+  left: 2px;
+}
+.icon.icon-7 {
+  color: #9f9db3;
+  font-size: 12px;
+  height: 15px;
+  width: 12px;
+  position: absolute;
+  top: 48px;
+  left: 2px;
+}
+.icon.icon-8 {
+  color: #9f9db3;
+  font-size: 13px;
+  height: 15px;
+  width: 13px;
+  position: absolute;
+  top: 49px;
+  left: 2px;
+}
+.icon.icon-9 {
+  color: #ffffff;
+  font-size: 26px;
+  height: 26px;
+  width: 33px;
+  position: absolute;
+  top: 503px;
+  left: 108px;
+}
+input.checkbox.input.checkbox-1 {
+  width: 29px;
+  height: 25px;
+  position: absolute;
+  top: 217px;
+  left: 374px;
+}
+input.checkbox.input.checkbox-2 {
+  width: 16px;
+  height: 18px;
+  position: absolute;
+  top: 219px;
+  left: 587px;
+}
+input.checkbox.input.checkbox-3 {
+  width: 15px;
+  height: 18px;
+  position: absolute;
+  top: 219px;
+  left: 476px;
+}
+.rectangle {
+  background: #44434d;
+  margin: 0px;
+  border-radius: 0px;
+  width: 1043px;
+  height: 54px;
+  position: absolute;
+  top: 0px;
+  left: -8px;
+}
+/*
+Using this css requires Font Awesome:
+http://fortawesome.github.com/Font-Awesome/
+*/
+ .image {
+  border-radius: 0px;
+  margin: 0px;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 10px;
+  left: 18px;
+}
+/*
+Using this css requires Font Awesome:
+http://fortawesome.github.com/Font-Awesome/
+*/
+ 
+/*
+Using this css requires Font Awesome:
+http://fortawesome.github.com/Font-Awesome/
+*/
+ 
+/*
+Using this css requires Font Awesome:
+http://fortawesome.github.com/Font-Awesome/
+*/
+ .rectangle-1 {
+  background: #44434d;
+  border-radius: 0px;
+  margin: 0px;
+  width: 9px;
+  height: 895px;
+  position: absolute;
+  top: 53px;
+  left: 242px;
+}
+.rectangle-2 {
+  background: #7e7c8f;
+  border-radius: 3px;
+  margin: 0px;
+  width: 9px;
+  height: 222px;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+}
+.rectangle-3 {
+  background: #374d80;
+  border-radius: 0px;
+  margin: 0px;
+  width: 250px;
+  height: 892px;
+  position: absolute;
+  top: 54px;
+  left: -8px;
+}
+.rectangle-4 {
+  background: #9f9db3;
+  border-radius: 2px;
+  margin: 0px;
+  width: 215px;
+  height: 109px;
+  position: absolute;
+  top: 42px;
+  left: 23px;
+}
+.rectangle-5 {
+  background: #ffffff;
+  border-radius: 0px;
+  margin: 0px;
+  width: 18px;
+  height: 109px;
+  position: absolute;
+  top: 0px;
+  left: -4px;
+}
+/*
+Using this css requires Font Awesome:
+http://fortawesome.github.com/Font-Awesome/
+*/
+ .image-1 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 93px;
+  height: 100px;
+  position: absolute;
+  top: 6px;
+  left: 19px;
+}
+.rectangle-6 {
+  background: #9f9db3;
+  border-radius: 2px;
+  margin: 0px;
+  width: 215px;
+  height: 106px;
+  position: absolute;
+  top: 162px;
+  left: 25px;
+}
+.image-2 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 93px;
+  height: 98px;
+  position: absolute;
+  top: 5px;
+  left: 17px;
+}
+.rectangle-7 {
+  background: #ffffff;
+  border-radius: 0px;
+  margin: 0px;
+  width: 18px;
+  height: 106px;
+  position: absolute;
+  top: 162px;
+  left: 19px;
+}
+/*
+Using this css requires Font Awesome:
+http://fortawesome.github.com/Font-Awesome/
+*/
+ .rectangle-8 {
+  background: #9f9db3;
+  border-radius: 2px;
+  margin: 0px;
+  width: 215px;
+  height: 109px;
+  position: absolute;
+  top: 282px;
+  left: 25px;
+}
+.image-3 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 93px;
+  height: 98px;
+  position: absolute;
+  top: 6px;
+  left: 17px;
+}
+.rectangle-9 {
+  background: #ffffff;
+  border-radius: 0px;
+  margin: 0px;
+  width: 18px;
+  height: 109px;
+  position: absolute;
+  top: 282px;
+  left: 19px;
+}
+
+ .rectangle-10 {
+  background: #9f9db3;
+  border-radius: 2px;
+  margin: 0px;
+  width: 215px;
+  height: 109px;
+  position: absolute;
+  top: 402px;
+  left: 25px;
+}
+.image-4 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 92px;
+  height: 99px;
+  position: absolute;
+  top: 5px;
+  left: 17px;
+}
+.rectangle-11 {
+  background: #ffffff;
+  border-radius: 0px;
+  margin: 0px;
+  width: 18px;
+  height: 109px;
+  position: absolute;
+  top: 402px;
+  left: 19px;
+}
+
+ .rectangle-12 {
+  background: #9f9db3;
+  border-radius: 2px;
+  margin: 0px;
+  width: 215px;
+  height: 109px;
+  position: absolute;
+  top: 611px;
+  left: 25px;
+}
+.image-5 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 92px;
+  height: 98px;
+  position: absolute;
+  top: 6px;
+  left: 16px;
+}
+.rectangle-13 {
+  background: #ffffff;
+  border-radius: 0px;
+  margin: 0px;
+  width: 18px;
+  height: 109px;
+  position: absolute;
+  top: 611px;
+  left: 19px;
+}
+
+ .rectangle-14 {
+  background: #ffffff;
+  border-radius: 2px;
+  margin: 0px;
+  width: 219px;
+  height: 109px;
+  position: absolute;
+  top: 732px;
+  left: 19px;
+}
+
+ .text {
+  color: #ffffff;
+  font-family:"helvetica";
+  font-size: 10pt;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0px -1px 0px rgba(94, 38, 22, 0.7);
+  position: absolute;
+  top: 93px;
+  left: -154px;
+}
+
+ .rectangle-15 {
+  background: #44434d;
+  border-radius: 3px;
+  margin: 0px;
+  width: 246px;
+  height: 8px;
+  position: absolute;
+  top: 129px;
+  left: 335px;
+}
+.rectangle-16 {
+  background: #374d80;
+  border-radius: 3px;
+  margin: 0px;
+  width: 44px;
+  height: 22px;
+  position: absolute;
+  top: 120px;
+  left: 362px;
+}
+.rectangle-17 {
+  background: #44434d;
+  border-radius: 3px;
+  margin: 0px;
+  width: 246px;
+  height: 8px;
+  position: absolute;
+  top: 183px;
+  left: 335px;
+}
+
+ .rectangle-18 {
+  background: #374d80;
+  border-radius: 3px;
+  margin: 0px;
+  width: 44px;
+  height: 22px;
+  position: absolute;
+  top: 175px;
+  left: 415px;
+}
+
+ .image-6 {
+  border-radius: 0px;
+  margin: 0px;
+  width: 738px;
+  height: 687px;
+  position: absolute;
+  top: 258px;
+  left: 251px;
+}
+.rectangle-19 {
+  background: #44434d;
+  border-radius: 0px;
+  width: 1048px;
+  height: 54px;
+  position: absolute;
+  top: 946px;
+  left: -12px;
+}
